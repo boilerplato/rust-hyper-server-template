@@ -1,0 +1,11 @@
+# Ignore these files as these will be generated from their .boiler files
+Cargo.toml
+README.md
+.gitignore
+tusk.yml
+.env
+/src/main.rs
+
+# Others
+/target
+LICENSE

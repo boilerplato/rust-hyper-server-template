@@ -44,8 +44,5 @@ Cargo.lock
 ### Others ###
 .env
 /dist
-rust-hyper-server-template.iml
-/.idea
-/my_app
 
 # End of https://www.gitignore.io/api/rust,macos

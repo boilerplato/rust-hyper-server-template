@@ -1,0 +1,11 @@
+tasks:
+  setup:
+    run:
+      - command: cargo install cargo-watch
+  dev:
+    run:
+      - command: cargo watch --watch ./src -x run
+  start:
+    run:
+      - command: cargo build --release
+      - command: ./target/release/rust-hyper-server-template
