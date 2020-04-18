@@ -57,13 +57,13 @@ helpText:
   macos:
     - '{{#if (eq license "MIT")}}{{color "Warning:" "yellow"}} Please update copyright name in the {{color "LICENSE" "green" }} file with appropriate value.{{/if}}'
   all:
-    - '{{color "Warning:" "yellow"}} It uses {{ color "tusk" "green" }} to automate scripts. Please install it from here {{color "https://github.com/rliebz/tusk" "green"}} and then run {{ color "tusk setup" "green" }}.'
+    - '{{color "Warning:" "yellow"}} It uses {{color "tusk" "green" }} to automate scripts. Please install it from here {{color "https://github.com/rliebz/tusk" "green"}} and then run {{color "$ tusk setup" "cyan" }}.'
     - ""
     - "Inside that directory, you can run several commands:\n"
-    - '  {{ color "tusk dev" "cyan" }}'
+    - '  {{color "tusk dev" "cyan"}}'
     - "    Starts the development server.\n"
-    - '  {{ color "tusk start" "cyan" }}'
+    - '  {{color "tusk start" "cyan"}}'
     - "    Starts the production server.\n"
     - "We suggest that you begin by typing:\n"
-    - '  {{ color "cd" "cyan" }} $APP_REL_PATH'
-    - '  {{ color "tusk dev" "cyan" }}'
+    - '  {{color "cd" "cyan"}} $APP_REL_PATH'
+    - '  {{color "tusk dev" "cyan"}}'
