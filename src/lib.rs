@@ -1,4 +1,5 @@
 pub use self::error::{Error, ErrorExt, ResultExt};
+pub use self::test_env::setup_test_environment;
 
 #[macro_use]
 pub mod logger;
