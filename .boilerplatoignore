@@ -5,6 +5,7 @@ README.md
 tusk.yml
 .env
 /src/main.rs
+/tests/integration_test.rs
 
 # Others
 /target
